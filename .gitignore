@@ -130,3 +130,6 @@ dmypy.json
 db.sqlite3
 geckodriver.log
 virtualenv
+
+# VSC (Visual Studio Code)
+.vscode
