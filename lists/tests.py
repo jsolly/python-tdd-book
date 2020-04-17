@@ -19,7 +19,7 @@ class HomePageTest(TestCase):
         self.assertIn("itemy 2", response.content.decode())
 
 
-    def test_can_save_a_POST_request(self): # This test is geetting a little long!
+    def test_can_save_a_POST_request(self): # This test is geetting a little long!!
         self.client.post('/', data={'item_text': "A new list item"})
 
         self.assertEqual(Item.objects.count(), 1)
